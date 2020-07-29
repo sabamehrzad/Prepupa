@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "Prepupa 11.20.46 AM.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "Prepupa 11.20.46 AM@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "Prepupa 11.20.46 AM@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

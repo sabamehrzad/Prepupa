@@ -14,6 +14,12 @@
 		8205FA5124D1B95A009548F8 /* Prepupa.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8205FA4F24D1B95A009548F8 /* Prepupa.xcdatamodeld */; };
 		8205FA5324D1B95B009548F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8205FA5224D1B95B009548F8 /* Assets.xcassets */; };
 		8205FA5624D1B95B009548F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8205FA5424D1B95B009548F8 /* LaunchScreen.storyboard */; };
+		8205FA5E24D1BE9E009548F8 /* PoliticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8205FA5D24D1BE9E009548F8 /* PoliticsViewController.swift */; };
+		8205FA6024D1BF06009548F8 /* PoliciesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8205FA5F24D1BF06009548F8 /* PoliciesViewController.swift */; };
+		8205FA6224D1BF31009548F8 /* PersonalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8205FA6124D1BF31009548F8 /* PersonalViewController.swift */; };
+		8205FA6424D1C4BA009548F8 /* aleo in Resources */ = {isa = PBXBuildFile; fileRef = 8205FA6324D1C4BA009548F8 /* aleo */; };
+		821086AC24D1C628003CC5A4 /* info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8205FA5724D1B95B009548F8 /* info.plist */; };
+		821086AE24D1C6F0003CC5A4 /* selima in Resources */ = {isa = PBXBuildFile; fileRef = 821086AD24D1C6F0003CC5A4 /* selima */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +31,12 @@
 		8205FA5024D1B95A009548F8 /* Prepupa.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Prepupa.xcdatamodel; sourceTree = "<group>"; };
 		8205FA5224D1B95B009548F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8205FA5524D1B95B009548F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8205FA5724D1B95B009548F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8205FA5724D1B95B009548F8 /* info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = info.plist; sourceTree = "<group>"; };
+		8205FA5D24D1BE9E009548F8 /* PoliticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoliticsViewController.swift; sourceTree = "<group>"; };
+		8205FA5F24D1BF06009548F8 /* PoliciesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoliciesViewController.swift; sourceTree = "<group>"; };
+		8205FA6124D1BF31009548F8 /* PersonalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalViewController.swift; sourceTree = "<group>"; };
+		8205FA6324D1C4BA009548F8 /* aleo */ = {isa = PBXFileReference; lastKnownFileType = folder; name = aleo; path = ../../aleo; sourceTree = "<group>"; };
+		821086AD24D1C6F0003CC5A4 /* selima */ = {isa = PBXFileReference; lastKnownFileType = folder; name = selima; path = ../../selima; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +69,18 @@
 		8205FA4524D1B95A009548F8 /* Prepupa */ = {
 			isa = PBXGroup;
 			children = (
+				8205FA5D24D1BE9E009548F8 /* PoliticsViewController.swift */,
+				8205FA5F24D1BF06009548F8 /* PoliciesViewController.swift */,
+				8205FA6124D1BF31009548F8 /* PersonalViewController.swift */,
 				8205FA4624D1B95A009548F8 /* AppDelegate.swift */,
 				8205FA4824D1B95A009548F8 /* SceneDelegate.swift */,
 				8205FA4A24D1B95A009548F8 /* ViewController.swift */,
 				8205FA4C24D1B95A009548F8 /* Main.storyboard */,
+				821086AD24D1C6F0003CC5A4 /* selima */,
+				8205FA6324D1C4BA009548F8 /* aleo */,
 				8205FA5224D1B95B009548F8 /* Assets.xcassets */,
 				8205FA5424D1B95B009548F8 /* LaunchScreen.storyboard */,
-				8205FA5724D1B95B009548F8 /* Info.plist */,
+				8205FA5724D1B95B009548F8 /* info.plist */,
 				8205FA4F24D1B95A009548F8 /* Prepupa.xcdatamodeld */,
 			);
 			path = Prepupa;
@@ -128,9 +144,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				821086AC24D1C628003CC5A4 /* info.plist in Resources */,
 				8205FA5624D1B95B009548F8 /* LaunchScreen.storyboard in Resources */,
+				8205FA6424D1C4BA009548F8 /* aleo in Resources */,
 				8205FA5324D1B95B009548F8 /* Assets.xcassets in Resources */,
 				8205FA4E24D1B95A009548F8 /* Main.storyboard in Resources */,
+				821086AE24D1C6F0003CC5A4 /* selima in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,8 +162,11 @@
 			files = (
 				8205FA4B24D1B95A009548F8 /* ViewController.swift in Sources */,
 				8205FA5124D1B95A009548F8 /* Prepupa.xcdatamodeld in Sources */,
+				8205FA6024D1BF06009548F8 /* PoliciesViewController.swift in Sources */,
 				8205FA4724D1B95A009548F8 /* AppDelegate.swift in Sources */,
 				8205FA4924D1B95A009548F8 /* SceneDelegate.swift in Sources */,
+				8205FA5E24D1BE9E009548F8 /* PoliticsViewController.swift in Sources */,
+				8205FA6224D1BF31009548F8 /* PersonalViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
