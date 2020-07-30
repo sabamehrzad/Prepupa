@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "1200px-Richard_Blumenthal_Official_Portrait.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "1200px-Richard_Blumenthal_Official_Portrait@2x.jpg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "1200px-Richard_Blumenthal_Official_Portrait@3x.jpg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

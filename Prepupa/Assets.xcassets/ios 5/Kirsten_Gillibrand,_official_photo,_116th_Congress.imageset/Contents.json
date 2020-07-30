@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "Kirsten_Gillibrand,_official_photo,_116th_Congress.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "Kirsten_Gillibrand,_official_photo,_116th_Congress@2x.jpg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "Kirsten_Gillibrand,_official_photo,_116th_Congress@3x.jpg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
