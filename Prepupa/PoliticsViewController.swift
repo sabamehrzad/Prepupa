@@ -10,11 +10,19 @@ import UIKit
 
 class PoliticsViewController: UIViewController {
 
+    @IBOutlet weak var bidenImage: UIImageView!
+    
+    @IBOutlet weak var trumpImage: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        bidenImage.layer.masksToBounds = true
+        bidenImage.layer.cornerRadius = bidenImage.bounds.width / 2
 
         // Do any additional setup after loading the view.
     }
+  
     
 
     /*
