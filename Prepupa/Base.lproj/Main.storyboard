@@ -110,16 +110,6 @@
                                     <navigationItem title="Prepupa" id="yPG-Bc-9JV"/>
                                 </items>
                             </navigationBar>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hYM-ev-cBV">
-                                <rect key="frame" x="0.0" y="764" width="414" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <items>
-                                    <barButtonItem image="house.fill" catalog="system" id="OCG-HY-N9m"/>
-                                    <barButtonItem title="Item" image="square.and.pencil" catalog="system" id="eFj-cq-cc0"/>
-                                    <barButtonItem title="Item" image="person.fill" catalog="system" id="c6U-8O-M5B"/>
-                                    <barButtonItem title="Item" image="person.3.fill" catalog="system" id="5TX-gF-d5m"/>
-                                </items>
-                            </toolbar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Democrats" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TlT-JA-IpO">
                                 <rect key="frame" x="20" y="266" width="190" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -212,16 +202,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="K9V-o0-F0A">
-                                <rect key="frame" x="0.0" y="764" width="414" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <items>
-                                    <barButtonItem image="house.fill" catalog="system" id="Q6D-YG-aSy"/>
-                                    <barButtonItem title="Item" image="square.and.pencil" catalog="system" id="uFG-oz-KGw"/>
-                                    <barButtonItem title="Item" image="person.fill" catalog="system" id="b1g-7W-wye"/>
-                                    <barButtonItem title="Item" image="person.3.fill" catalog="system" id="tdj-EL-EEh"/>
-                                </items>
-                            </toolbar>
                         </subviews>
                         <color key="backgroundColor" red="0.96402972939999998" green="0.99826914069999995" blue="0.85096019509999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="qMv-3O-5ww"/>
@@ -247,16 +227,6 @@
                                     <navigationItem title="Prepupa" id="O3Z-HO-HCT"/>
                                 </items>
                             </navigationBar>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Rcr-Fy-Y4y">
-                                <rect key="frame" x="0.0" y="818" width="414" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <items>
-                                    <barButtonItem image="house.fill" catalog="system" id="PW5-33-IXu"/>
-                                    <barButtonItem title="Item" image="square.and.pencil" catalog="system" id="kig-NU-AIh"/>
-                                    <barButtonItem title="Item" image="person.fill" catalog="system" id="aEA-4c-V4J"/>
-                                    <barButtonItem title="Item" image="person.3.fill" catalog="system" id="WyO-1A-34G"/>
-                                </items>
-                            </toolbar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Home" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="32B-35-2hZ">
                                 <rect key="frame" x="107" y="88" width="201" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -305,7 +275,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bg8-0z-Kk9">
-                                <rect key="frame" x="113" y="224" width="189" height="50"/>
+                                <rect key="frame" x="113" y="201" width="189" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.71993732450000003" green="0.90021795029999996" blue="0.9921720624" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
@@ -317,7 +287,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JKa-80-j7D">
-                                <rect key="frame" x="19" y="608" width="377" height="50"/>
+                                <rect key="frame" x="19" y="582" width="377" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.71993732450000003" green="0.90021795029999996" blue="0.9921720624" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
@@ -329,7 +299,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F15-ct-CDh">
-                                <rect key="frame" x="21" y="420" width="373" height="50"/>
+                                <rect key="frame" x="21" y="385" width="373" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.71993732450000003" green="0.90021795029999996" blue="0.9921720624" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
@@ -340,29 +310,22 @@
                                     <segue destination="FoT-5P-9i5" kind="show" id="5h0-bm-18U"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1Cu-RR-wsj">
-                                <rect key="frame" x="31" y="282" width="352" height="105"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="XXh-iK-pp7">
+                                <rect key="frame" x="31" y="435" width="352" height="144"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.95614415409999998" green="1" blue="0.83527082200000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <string key="text">The Environmental Protection Agency (EPA) is an executive agency of the United States that focuses on environmental protection. The EPA is meant to prioritize environmental stability and health through scientific research, grants, and regulations. Under the Trump administration,  environmental rollbacks and pro-polluter heads of administration have been the norm.
+</string>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="XXh-iK-pp7">
-                                <rect key="frame" x="31" y="470" width="352" height="105"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Yq7-sU-e2X">
+                                <rect key="frame" x="31" y="633" width="352" height="123"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.95614415409999998" green="1" blue="0.83527082200000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Yq7-sU-e2X">
-                                <rect key="frame" x="31" y="663" width="352" height="105"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.95614415409999998" green="1" blue="0.83527082200000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <string key="text">In 2017 congress voted to allow oil and gas drilling on the Alaskan National Wild Refuge (ANWR). Not only does this endanger the various wildlife living around this previously undisturbed area, it also poses a huge issue for the Native Alaskan Gwich’in Nation who have strong cultural ties to animals impacted by drilling. 
+</string>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -374,6 +337,16 @@
                                     <barButtonItem image="pencil.slash" catalog="system" style="plain" id="Ahs-O4-PaM"/>
                                 </items>
                             </toolbar>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="1Cu-RR-wsj">
+                                <rect key="frame" x="31" y="251" width="352" height="130"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.95614415409999998" green="1" blue="0.83527082200000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <string key="text">The Green New Deal outlines goals and plans that provide solutions for both the climate crisis and poverty crisis. While the Green New Deal was formally blocked by the Senate, Joe Biden (current Presidential Candidate) has plans to include parts of the Green New Deal in his attack on environmental issues and poverty.
+</string>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" red="0.95614415409999998" green="1" blue="0.83527082200000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="PC1-31-gQ2"/>
@@ -382,7 +355,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pOO-A3-5Dp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="917" y="122"/>
+            <point key="canvasLocation" x="915.94202898550736" y="121.875"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="hA9-ki-k0a">
@@ -407,16 +380,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mdc-FZ-ueu">
-                                <rect key="frame" x="0.0" y="764" width="414" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <items>
-                                    <barButtonItem image="house.fill" catalog="system" id="5sx-5M-S7r"/>
-                                    <barButtonItem title="Item" image="square.and.pencil" catalog="system" id="6dJ-1t-959"/>
-                                    <barButtonItem title="Item" image="person.fill" catalog="system" id="QLT-1C-h8v"/>
-                                    <barButtonItem title="Item" image="person.3.fill" catalog="system" id="1oH-dZ-Mu5"/>
-                                </items>
-                            </toolbar>
                         </subviews>
                         <color key="backgroundColor" red="0.96402972939999998" green="0.99826914069999995" blue="0.85096019509999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="ukJ-Cg-dLN"/>
@@ -450,16 +413,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JXQ-ns-9yk">
-                                <rect key="frame" x="0.0" y="764" width="414" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <items>
-                                    <barButtonItem image="house.fill" catalog="system" id="jV7-OV-12u"/>
-                                    <barButtonItem title="Item" image="square.and.pencil" catalog="system" id="5OU-zb-etx"/>
-                                    <barButtonItem title="Item" image="person.fill" catalog="system" id="eoU-vF-a62"/>
-                                    <barButtonItem title="Item" image="person.3.fill" catalog="system" id="fVS-Q4-xqV"/>
-                                </items>
-                            </toolbar>
                         </subviews>
                         <color key="backgroundColor" red="0.96402972939999998" green="0.99826914069999995" blue="0.85096019509999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="b5c-5z-fcW"/>
@@ -485,16 +438,6 @@
                                     <navigationItem title="Prepupa" id="Dyr-uO-Bff"/>
                                 </items>
                             </navigationBar>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KjL-V7-g8a">
-                                <rect key="frame" x="0.0" y="764" width="414" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <items>
-                                    <barButtonItem title="Item" image="house.fill" catalog="system" id="hTJ-tw-C5u"/>
-                                    <barButtonItem title="Item" image="square.and.pencil" catalog="system" id="7n3-DV-5JY"/>
-                                    <barButtonItem title="Item" image="person.fill" catalog="system" id="XqY-mr-GOf"/>
-                                    <barButtonItem title="Item" image="person.3.fill" catalog="system" id="OXC-3e-2FC"/>
-                                </items>
-                            </toolbar>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cbA-mr-XSr">
                                 <rect key="frame" x="32" y="197" width="170" height="221"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -612,16 +555,6 @@
                                     <navigationItem title="Prepupa" id="8jT-gQ-z2V"/>
                                 </items>
                             </navigationBar>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZEP-fS-fAo">
-                                <rect key="frame" x="0.0" y="818" width="414" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <items>
-                                    <barButtonItem image="house.fill" catalog="system" id="LQr-qR-sD4"/>
-                                    <barButtonItem title="Item" image="square.and.pencil" catalog="system" id="jjK-1s-g7f"/>
-                                    <barButtonItem title="Item" image="person.fill" catalog="system" id="2yy-gT-c3p"/>
-                                    <barButtonItem title="Item" image="person.3.fill" catalog="system" id="1Pc-qg-dJK"/>
-                                </items>
-                            </toolbar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hygiene" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kQb-pY-qXP">
                                 <rect key="frame" x="107" y="88" width="201" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -654,16 +587,6 @@
                                     <navigationItem title="Prepupa" id="App-jZ-1Fb"/>
                                 </items>
                             </navigationBar>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7g5-Ll-yMZ">
-                                <rect key="frame" x="0.0" y="764" width="414" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <items>
-                                    <barButtonItem image="house.fill" catalog="system" id="LWI-jq-VzC"/>
-                                    <barButtonItem title="Item" image="square.and.pencil" catalog="system" id="75u-GW-Wrb"/>
-                                    <barButtonItem title="Item" image="person.fill" catalog="system" id="M14-8Q-fqL"/>
-                                    <barButtonItem title="Item" image="person.3.fill" catalog="system" id="6MJ-zK-iUO"/>
-                                </items>
-                            </toolbar>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Hof-y8-OMK">
                                 <rect key="frame" x="63" y="199" width="288" height="272"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -733,16 +656,6 @@
                                     <navigationItem title="Prepupa" id="Fm4-f8-Qx7"/>
                                 </items>
                             </navigationBar>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="b76-Lo-vHD">
-                                <rect key="frame" x="0.0" y="818" width="414" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <items>
-                                    <barButtonItem image="house.fill" catalog="system" id="uOh-7r-nCm"/>
-                                    <barButtonItem title="Item" image="square.and.pencil" catalog="system" id="yQS-IC-NLz"/>
-                                    <barButtonItem title="Item" image="person.fill" catalog="system" id="NJY-RX-DpW"/>
-                                    <barButtonItem title="Item" image="person.3.fill" catalog="system" id="HYy-VF-L1V"/>
-                                </items>
-                            </toolbar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cooking" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fdn-FR-0Bv">
                                 <rect key="frame" x="107" y="88" width="201" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -769,11 +682,7 @@
         <image name="Screen Shot 2020-07-29 at 2.56.20 PM" width="60" height="55"/>
         <image name="Screen Shot 2020-07-29 at 2.56.30 PM" width="59" height="54"/>
         <image name="biden" width="480" height="320"/>
-        <image name="house.fill" catalog="system" width="128" height="106"/>
         <image name="pencil.slash" catalog="system" width="128" height="113"/>
-        <image name="person.3.fill" catalog="system" width="128" height="61"/>
-        <image name="person.fill" catalog="system" width="128" height="120"/>
-        <image name="square.and.pencil" catalog="system" width="128" height="118"/>
         <image name="trump dump" width="636.5" height="477"/>
     </resources>
 </document>
