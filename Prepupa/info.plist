@@ -60,10 +60,5 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-	<key>Fonts provided by application</key>
-	<array>
-		<string>Aleo-Light.otf</string>
-		<string>Aleo-Italic.otf</string>
-	</array>
 </dict>
 </plist>
