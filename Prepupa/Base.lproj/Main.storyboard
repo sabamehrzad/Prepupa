@@ -447,7 +447,7 @@
                                     <color key="titleColor" red="0.37255167960000002" green="0.56125873329999998" blue="0.7294338346" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
-                                    <segue destination="vug-zq-8YK" kind="show" id="ajZ-Wj-Cw3"/>
+                                    <segue destination="aee-E8-fPA" kind="show" id="DcL-yz-BEU"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="STf-Rq-tYO">
@@ -573,71 +573,105 @@
             <point key="canvasLocation" x="2516" y="122"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="KXh-xG-XDS">
+        <scene sceneID="bti-y4-LyD">
             <objects>
-                <viewController id="vug-zq-8YK" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="xHO-TJ-SqO">
+                <viewController id="aee-E8-fPA" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vvE-lc-N5j">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="n8U-PJ-Jid">
-                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <items>
-                                    <navigationItem title="Prepupa" id="App-jZ-1Fb"/>
-                                </items>
-                            </navigationBar>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Hof-y8-OMK">
-                                <rect key="frame" x="63" y="199" width="288" height="272"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.96402972939999998" green="0.99826914069999995" blue="0.85096019509999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <string key="text">Try going to thrift stores rather than purchasing brand new clothing. When thrifting you are not only reducing your impact on the environment by not shopping from companies that don’t use sustainable resources, you’re also spending less money than you would buying pieces completely new.</string>
-                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1920x1080-blog-post-thrift-store-1024x576" translatesAutoresizingMaskIntoConstraints="NO" id="Szz-WD-I1h">
-                                <rect key="frame" x="87" y="459" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Thrifting" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D8z-Jr-5BS">
-                                <rect key="frame" x="153" y="167" width="109" height="33"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="27"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sewing or Knitting" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QX3-du-I3Q">
-                                <rect key="frame" x="92" y="615" width="231" height="33"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="27"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MHK-5V-fyF">
-                                <rect key="frame" x="20" y="579" width="240" height="317"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <string key="text">Sewing, knitting, and other similar activities are the perfect way to make clothing that you want exactly how you want it. While sewing an entire new wardrobe may be too difficult, altering pre existing clothes to make them more desirable is feasible and sustainable while also not being insanely expensive!</string>
-                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fashion" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HlD-If-aoP">
-                                <rect key="frame" x="107" y="94" width="201" height="53"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.67349761720000001" green="0.9040452242" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fot-a1-QcK">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="yE9-RB-nIl">
+                                        <rect key="frame" x="0.0" y="-13" width="414" height="1000"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="we4-wI-DP2">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                                                <subviews>
+                                                    <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RC5-lr-yhb">
+                                                        <rect key="frame" x="0.0" y="52" width="414" height="44"/>
+                                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                                        <items>
+                                                            <navigationItem title="Prepupa" id="UWW-eG-EcG"/>
+                                                        </items>
+                                                    </navigationBar>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Thrifting" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4JZ-O6-n1g">
+                                                        <rect key="frame" x="0.0" y="190" width="414" height="32.5"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="27"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="AZQ-kX-SQV">
+                                                        <rect key="frame" x="48" y="230" width="317" height="245"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <color key="backgroundColor" red="0.96402972939999998" green="0.99826914069999995" blue="0.85096019509999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <string key="text">Try going to thrift stores rather than purchasing brand new clothing. When thrifting you are not only reducing your impact on the environment by not shopping from companies that don’t use sustainable resources, you’re also spending less money than you would buying pieces completely new.</string>
+                                                        <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                    </textView>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1920x1080-blog-post-thrift-store-1024x576" translatesAutoresizingMaskIntoConstraints="NO" id="W2x-ZL-Pmf">
+                                                        <rect key="frame" x="0.0" y="483" width="414" height="192"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fashion" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ipz-ue-x63">
+                                                        <rect key="frame" x="98" y="108" width="216" height="63"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <color key="backgroundColor" red="0.67349761720000001" green="0.9040452242" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Clothing Swaps" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xxu-8e-vD2">
+                                                        <rect key="frame" x="0.0" y="711" width="414" height="32.5"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="27"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="wzR-h2-Woa">
+                                                        <rect key="frame" x="49" y="751" width="317" height="203"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <color key="backgroundColor" red="0.96402972939999998" green="0.99826914069999995" blue="0.85096019509999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <string key="text"> Rather than buying new clothes and spending money, you and your friends can opt for a less expensive journey. Clothing swaps are the perfect opportunity to renew your wardrobe without spending any money at all!</string>
+                                                        <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                    </textView>
+                                                </subviews>
+                                                <color key="backgroundColor" red="0.95614415409999998" green="1" blue="0.83527082200000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="1000" id="Lhs-oY-ucm"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="yE9-RB-nIl" firstAttribute="width" secondItem="Qe5-BA-PQp" secondAttribute="width" id="1w7-h2-ngz"/>
+                                    <constraint firstItem="yE9-RB-nIl" firstAttribute="leading" secondItem="xsF-2c-1Td" secondAttribute="leading" id="IFD-fv-Vyz"/>
+                                    <constraint firstItem="yE9-RB-nIl" firstAttribute="bottom" secondItem="xsF-2c-1Td" secondAttribute="bottom" id="JYL-cg-XyE"/>
+                                    <constraint firstItem="xsF-2c-1Td" firstAttribute="top" secondItem="yE9-RB-nIl" secondAttribute="top" constant="13" id="qw0-Yp-xPA"/>
+                                    <constraint firstItem="yE9-RB-nIl" firstAttribute="trailing" secondItem="xsF-2c-1Td" secondAttribute="trailing" id="uSe-Wy-U8v"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="xsF-2c-1Td"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="Qe5-BA-PQp"/>
+                            </scrollView>
                         </subviews>
-                        <color key="backgroundColor" red="0.96402972939999998" green="0.99826914069999995" blue="0.85096019509999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                        <viewLayoutGuide key="safeArea" id="I4k-CT-VUK"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="fot-a1-QcK" firstAttribute="top" secondItem="vvE-lc-N5j" secondAttribute="top" id="74v-tX-Mhu"/>
+                            <constraint firstItem="fot-a1-QcK" firstAttribute="leading" secondItem="Ztg-f0-jNy" secondAttribute="leading" id="8pT-US-MAH"/>
+                            <constraint firstAttribute="bottom" secondItem="fot-a1-QcK" secondAttribute="bottom" id="PZ2-Zt-01A"/>
+                            <constraint firstItem="fot-a1-QcK" firstAttribute="trailing" secondItem="Ztg-f0-jNy" secondAttribute="trailing" id="gwk-E8-Ca6"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Ztg-f0-jNy"/>
                     </view>
-                    <navigationItem key="navigationItem" id="DVA-m1-MDm"/>
+                    <navigationItem key="navigationItem" id="rpu-qI-S0m"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="sHH-Ts-c4C" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZVm-fC-r00" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1747.826086956522" y="805.58035714285711"/>
         </scene>
